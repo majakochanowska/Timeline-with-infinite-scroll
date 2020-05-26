@@ -3,14 +3,6 @@ const timeline = document.getElementById("timeline");
 let data_num = 0;
 
 window.addEventListener("scroll", () => {
-  /*const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
-  
-  console.log(scrollTop, scrollHeight, clientHeight);
-	
-	if(clientHeight + scrollTop >= scrollHeight - 5) {
-    console.log("top");
-		getData();
-  }*/
   if(window.scrollY + window.innerHeight >= document.documentElement.scrollHeight) {
     getData();
   }

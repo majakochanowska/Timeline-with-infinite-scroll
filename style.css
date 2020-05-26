@@ -154,7 +154,7 @@ h1 {
   text-align: center;
 }
 
-@media screen and (max-width: 976px) {
+@media all and (max-width: 976px) {
   .timeline::before {
     left: 50px;
   }
@@ -190,13 +190,13 @@ h1 {
   }
 }
 
-@media screen and (max-width: 1800px) {
+@media all and (max-width: 1800px) {
   .content {
     width: 42%;
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media all and (max-width: 1200px) {
   .content {
     width: 40%;
   }
